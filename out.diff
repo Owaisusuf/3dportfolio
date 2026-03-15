@@ -97,7 +97,7 @@ index 4aaf534..d1cf30d 100644
 +      "license": "Standard 'no charge' license: https://gsap.com/standard-license.",
 +      "peer": true
      },
-     "node_modules/gsap-trial": {
+     "node_modules/gsap": {
        "version": "3.12.7",
 @@ -3389,6 +3399,7 @@
        "integrity": "sha512-5gTmgEY/sqK6gFXLIsQNH19lWb4ebPDLA4SdLP7dsWkIXHWlG66oPuVvXSGFPppYZz8ZDZq0dYYrbHfBCVUb1Q==",

@@ -1,0 +1,401 @@
+﻿diff --git a/index.html b/index.html
+index 03585c0..4199718 100644
+--- a/index.html
++++ b/index.html
+@@ -5,7 +5,7 @@
+   <meta charset="UTF-8" />
+   <!-- <link rel="icon" type="image/svg+xml" href="/" /> -->
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+-  <title>Rajesh Chityal - Full Stack Developer</title>
++  <title>Owais Ahmad Mir - Full Stack Web Developer</title>
+ </head>
+ 
+ <body>
+diff --git a/package-lock.json b/package-lock.json
+index 4aaf534..d1cf30d 100644
+--- a/package-lock.json
++++ b/package-lock.json
+@@ -70,6 +70,7 @@
+       "integrity": "sha512-CGOfOJqWjg2qW/Mb6zNsDm+u5vFQ8DxXfbM09z69p5Z6+mE1ikP2jUXw+j42Pf1XTYED2Rni5f95npYeuwMDQA==",
+       "dev": true,
+       "license": "MIT",
++      "peer": true,
+       "dependencies": {
+         "@babel/code-frame": "^7.29.0",
+         "@babel/generator": "^7.29.0",
+@@ -1158,6 +1159,7 @@
+       "resolved": "https://registry.npmjs.org/@react-three/fiber/-/fiber-8.18.0.tgz",
+       "integrity": "sha512-FYZZqD0UUHUswKz3LQl2Z7H24AhD14XGTsIRw3SJaXUxyfVMi+1yiZGmqTcPt/CkPpdU7rrxqcyQ1zJE5DjvIQ==",
+       "license": "MIT",
++      "peer": true,
+       "dependencies": {
+         "@babel/runtime": "^7.17.8",
+         "@types/react-reconciler": "^0.26.7",
+@@ -1707,6 +1709,7 @@
+       "resolved": "https://registry.npmjs.org/@types/react/-/react-18.3.28.tgz",
+       "integrity": "sha512-z9VXpC7MWrhfWipitjNdgCauoMLRdIILQsAEV+ZesIzBq/oUlxk0m3ApZuMFCXdnS4U7KrI+l3WRUEGQ8K1QKw==",
+       "license": "MIT",
++      "peer": true,
+       "dependencies": {
+         "@types/prop-types": "*",
+         "csstype": "^3.2.2"
+@@ -1742,6 +1745,7 @@
+       "resolved": "https://registry.npmjs.org/@types/three/-/three-0.168.0.tgz",
+       "integrity": "sha512-qAGLGzbaYgkkonOBfwOr+TZpOskPfFjrDAj801WQSVkUz0/D9zwir4vhruJ/CC/GteywzR9pqeVVfs5th/2oKw==",
+       "license": "MIT",
++      "peer": true,
+       "dependencies": {
+         "@tweenjs/tween.js": "~23.1.3",
+         "@types/stats.js": "*",
+@@ -1802,6 +1806,7 @@
+       "integrity": "sha512-klQbnPAAiGYFyI02+znpBRLyjL4/BrBd0nyWkdC0s/6xFLkXYQ8OoRrSkqacS1ddVxf/LDyODIKbQ5TgKAf/Fg==",
+       "dev": true,
+       "license": "MIT",
++      "peer": true,
+       "dependencies": {
+         "@typescript-eslint/scope-manager": "8.56.1",
+         "@typescript-eslint/types": "8.56.1",
+@@ -2141,6 +2146,7 @@
+       "integrity": "sha512-UVJyE9MttOsBQIDKw1skb9nAwQuR5wuGD3+82K6JgJlm/Y+KI92oNsMNGZCYdDsVtRHSak0pcV5Dno5+4jh9sw==",
+       "dev": true,
+       "license": "MIT",
++      "peer": true,
+       "bin": {
+         "acorn": "bin/acorn"
+       },
+@@ -2278,6 +2284,7 @@
+         }
+       ],
+       "license": "MIT",
++      "peer": true,
+       "dependencies": {
+         "baseline-browser-mapping": "^2.9.0",
+         "caniuse-lite": "^1.0.30001759",
+@@ -2360,7 +2367,8 @@
+       "version": "0.20.0",
+       "resolved": "https://registry.npmjs.org/cannon-es/-/cannon-es-0.20.0.tgz",
+       "integrity": "sha512-eZhWTZIkFOnMAJOgfXJa9+b3kVlvG+FX4mdkpePev/w/rP5V8NRquGyEozcjPfEoXUlb+p7d9SUcmDSn14prOA==",
+-      "license": "MIT"
++      "license": "MIT",
++      "peer": true
+     },
+     "node_modules/cannon-es-debugger": {
+       "version": "1.0.0",
+@@ -2582,6 +2590,7 @@
+       "integrity": "sha512-XoMjdBOwe/esVgEvLmNsD3IRHkm7fbKIUGvrleloJXUZgDHig2IPWNniv+GwjyJXzuNqVjlr5+4yVUZjycJwfQ==",
+       "dev": true,
+       "license": "MIT",
++      "peer": true,
+       "dependencies": {
+         "@eslint-community/eslint-utils": "^4.8.0",
+         "@eslint-community/regexpp": "^4.12.1",
+@@ -2910,7 +2919,8 @@
+       "version": "3.14.2",
+       "resolved": "https://registry.npmjs.org/gsap/-/gsap-3.14.2.tgz",
+       "integrity": "sha512-P8/mMxVLU7o4+55+1TCnQrPmgjPKnwkzkXOK1asnR9Jg2lna4tEY5qBJjMmAaOBDDZWtlRjBXjLa0w53G/uBLA==",
+-      "license": "Standard 'no charge' license: https://gsap.com/standard-license."
++      "license": "Standard 'no charge' license: https://gsap.com/standard-license.",
++      "peer": true
+     },
+     "node_modules/gsap-trial": {
+       "version": "3.12.7",
+@@ -3389,6 +3399,7 @@
+       "integrity": "sha512-5gTmgEY/sqK6gFXLIsQNH19lWb4ebPDLA4SdLP7dsWkIXHWlG66oPuVvXSGFPppYZz8ZDZq0dYYrbHfBCVUb1Q==",
+       "dev": true,
+       "license": "MIT",
++      "peer": true,
+       "engines": {
+         "node": ">=12"
+       },
+@@ -3430,6 +3441,7 @@
+       "resolved": "https://registry.npmjs.org/postprocessing/-/postprocessing-6.38.3.tgz",
+       "integrity": "sha512-5qCFp8j62nWL6sSVv/RKuHscQUIV+VMMgWeHLYZQEBpAk7G+r3jA3bSKON7gZjiuxdZ/F4PXj2Jc1oPh/7Eg+g==",
+       "license": "Zlib",
++      "peer": true,
+       "peerDependencies": {
+         "three": ">= 0.157.0 < 0.184.0"
+       }
+@@ -3486,6 +3498,7 @@
+       "resolved": "https://registry.npmjs.org/react/-/react-18.3.1.tgz",
+       "integrity": "sha512-wS+hAgJShR0KhEvPJArfuPVN1+Hz1t0Y6n5jLrGQbkb4urgPE/0Rve+1kMB1v/oWgHgm4WIcV+i7F2pTVj+2iQ==",
+       "license": "MIT",
++      "peer": true,
+       "dependencies": {
+         "loose-envify": "^1.1.0"
+       },
+@@ -3510,6 +3523,7 @@
+       "resolved": "https://registry.npmjs.org/react-dom/-/react-dom-18.3.1.tgz",
+       "integrity": "sha512-5m4nQKp+rZRb09LNH59GM4BxTh9251/ylbKIbpe7TpGxfJ+9kv6BLkLBXIjjspbgbnIBNqlI23tRnTWT0snUIw==",
+       "license": "MIT",
++      "peer": true,
+       "dependencies": {
+         "loose-envify": "^1.1.0",
+         "scheduler": "^0.23.2"
+@@ -3772,7 +3786,8 @@
+       "version": "0.168.0",
+       "resolved": "https://registry.npmjs.org/three/-/three-0.168.0.tgz",
+       "integrity": "sha512-6m6jXtDwMJEK/GGMbAOTSAmxNdzKvvBzgd7q8bE/7Tr6m7PaBh5kKLrN7faWtlglXbzj7sVba48Idwx+NRsZXw==",
+-      "license": "MIT"
++      "license": "MIT",
++      "peer": true
+     },
+     "node_modules/three-mesh-bvh": {
+       "version": "0.7.8",
+@@ -3923,6 +3938,7 @@
+       "integrity": "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==",
+       "devOptional": true,
+       "license": "Apache-2.0",
++      "peer": true,
+       "bin": {
+         "tsc": "bin/tsc",
+         "tsserver": "bin/tsserver"
+@@ -4020,6 +4036,7 @@
+       "integrity": "sha512-o5a9xKjbtuhY6Bi5S3+HvbRERmouabWbyUcpXXUA1u+GNUKoROi9byOJ8M0nHbHYHkYICiMlqxkg1KkYmm25Sw==",
+       "dev": true,
+       "license": "MIT",
++      "peer": true,
+       "dependencies": {
+         "esbuild": "^0.21.3",
+         "postcss": "^8.4.43",
+@@ -4160,4 +4177,4 @@
+       }
+     }
+   }
+-}
+\ No newline at end of file
++}
+diff --git a/src/components/About.tsx b/src/components/About.tsx
+index 7a09f60..cd6dc30 100644
+--- a/src/components/About.tsx
++++ b/src/components/About.tsx
+@@ -6,11 +6,12 @@ const About = () => {
+       <div className="about-me">
+         <h3 className="title">About Me</h3>
+         <p className="para">
+-          Full Stack Developer with 4+ years of experience building scalable web
+-          applications using React.js, Angular, Next.js, Node.js, and NestJS. Skilled
+-          in microservices architecture, CMS development, and low-code platforms.
+-          Passionate about creating high-performance, production-ready solutions
+-          from concept to deployment.
++          Dedicated Full Stack Web Developer with strong expertise in designing,
++          developing, and maintaining scalable web applications using modern
++          technologies and Microsoft development stack. Experienced in building
++          robust backend systems using .NET Web API and implementing efficient
++          database solutions with SQL Server. Skilled in developing responsive user
++          interfaces using React and modern JavaScript frameworks.
+         </p>
+       </div>
+     </div>
+diff --git a/src/components/Career.tsx b/src/components/Career.tsx
+index 75032c3..959153e 100644
+--- a/src/components/Career.tsx
++++ b/src/components/Career.tsx
+@@ -15,43 +15,25 @@ const Career = () => {
+           <div className="career-info-box">
+             <div className="career-info-in">
+               <div className="career-role">
+-                <h4>Full Stack Developer</h4>
+-                <h5>Ikshan</h5>
++                <h4>Bachelor of Computer Applications (BCA)</h4>
++                <h5>IITM College</h5>
+               </div>
+-              <h3>2020</h3>
++              <h3>2018 - 2021</h3>
+             </div>
+             <p>
+-              Built 6+ complete applications using React.js. Integrated backend
+-              authentication using Node.js & MongoDB. Created responsive UI/UX
+-              and designed wireframes using Figma.
++              Affiliated with University of Kashmir. Gained strong foundation in computer science and software development.
+             </p>
+           </div>
+           <div className="career-info-box">
+             <div className="career-info-in">
+               <div className="career-role">
+-                <h4>Senior Full Stack Developer</h4>
+-                <h5>Monocept (Max Life Insurance)</h5>
++                <h4>Assistant Manager ΓÇô Software Dev & Design</h4>
++                <h5>Premier Sales Agency</h5>
+               </div>
+-              <h3>2021</h3>
++              <h3>2022 - 2025</h3>
+             </div>
+             <p>
+-              Led two development teams on Mpro, a large-scale insurance
+-              operations platform. Developed multiple modules using React.js &
+-              migrated critical functionalities to Node.js microservices.
+-            </p>
+-          </div>
+-          <div className="career-info-box">
+-            <div className="career-info-in">
+-              <div className="career-role">
+-                <h4>Full Stack Developer</h4>
+-                <h5>Logic Loop</h5>
+-              </div>
+-              <h3>NOW</h3>
+-            </div>
+-            <p>
+-              Building Solid, a proprietary low-code platform using Angular,
+-              Next.js & NestJS. Delivering production-ready CMS-based projects
+-              including e-commerce, CRM, and import-export automation systems.
++              Developed full stack applications using React and .NET. Built RESTful services with .NET Web API and implemented database solutions using SQL Server. Optimized application performance and customized WordPress sites.
+             </p>
+           </div>
+         </div>
+diff --git a/src/components/Contact.tsx b/src/components/Contact.tsx
+index 66462dc..83c22de 100644
+--- a/src/components/Contact.tsx
++++ b/src/components/Contact.tsx
+@@ -10,51 +10,27 @@ const Contact = () => {
+           <div className="contact-box">
+             <h4>Email</h4>
+             <p>
+-              <a href="mailto:rajeshchittyal21@gmail.com" data-cursor="disable">
+-                rajeshchittyal21@gmail.com
++              <a href="mailto:owaisusuf10@gmail.com" data-cursor="disable">
++                owaisusuf10@gmail.com
+               </a>
+             </p>
+             <h4>Education</h4>
+-            <p>BSc in Computer Science</p>
++            <p>BCA in Computer Applications</p>
+           </div>
+           <div className="contact-box">
+             <h4>Social</h4>
+             <a
+-              href="https://github.com/raxx21"
++              href="https://github.com/Owaisusuf"
+               target="_blank"
+               data-cursor="disable"
+               className="contact-social"
+             >
+               Github <MdArrowOutward />
+             </a>
+-            <a
+-              href="https://www.linkedin.com/in/rajesh-chityal-2a70141b3"
+-              target="_blank"
+-              data-cursor="disable"
+-              className="contact-social"
+-            >
+-              Linkedin <MdArrowOutward />
+-            </a>
+-            <a
+-              href="https://x.com/raxx21_official"
+-              target="_blank"
+-              data-cursor="disable"
+-              className="contact-social"
+-            >
+-              Twitter <MdArrowOutward />
+-            </a>
+-            <a
+-              href="https://www.instagram.com/therajeshchityal"
+-              target="_blank"
+-              data-cursor="disable"
+-              className="contact-social"
+-            >
+-              Instagram <MdArrowOutward />
+-            </a>
+           </div>
+           <div className="contact-box">
+             <h2>
+-              Designed and Developed <br /> by <span>Rajesh Chityal</span>
++              Designed and Developed <br /> by <span>Owais Ahmad Mir</span>
+             </h2>
+             <h5>
+               <MdCopyright /> 2025
+diff --git a/src/components/Landing.tsx b/src/components/Landing.tsx
+index 29a1f9c..0cdd7c0 100644
+--- a/src/components/Landing.tsx
++++ b/src/components/Landing.tsx
+@@ -9,20 +9,20 @@ const Landing = ({ children }: PropsWithChildren) => {
+           <div className="landing-intro">
+             <h2>Hello! I'm</h2>
+             <h1>
+-              RAJESH
++              OWAIS AHMAD
+               <br />
+-              <span>CHITYAL</span>
++              <span>MIR</span>
+             </h1>
+           </div>
+           <div className="landing-info">
+-            <h3>A Full Stack</h3>
++            <h3>A Dedicated</h3>
+             <h2 className="landing-info-h2">
+-              <div className="landing-h2-1">Developer</div>
+-              <div className="landing-h2-2">Engineer</div>
++              <div className="landing-h2-1">Full Stack</div>
++              <div className="landing-h2-2">Web Developer</div>
+             </h2>
+             <h2>
+-              <div className="landing-h2-info">Engineer</div>
+-              <div className="landing-h2-info-1">Developer</div>
++              <div className="landing-h2-info">Web Developer</div>
++              <div className="landing-h2-info-1">Full Stack</div>
+             </h2>
+           </div>
+         </div>
+diff --git a/src/components/Navbar.tsx b/src/components/Navbar.tsx
+index 6abbe8d..651fbba 100644
+--- a/src/components/Navbar.tsx
++++ b/src/components/Navbar.tsx
+@@ -43,14 +43,14 @@ const Navbar = () => {
+     <>
+       <div className="header">
+         <a href="/#" className="navbar-title" data-cursor="disable">
+-          RC
++          OM
+         </a>
+         <a
+-          href="mailto:rajeshchittyal21@gmail.com"
++          href="mailto:owaisusuf10@gmail.com"
+           className="navbar-connect"
+           data-cursor="disable"
+         >
+-          rajeshchittyal21@gmail.com
++          owaisusuf10@gmail.com
+         </a>
+         <ul>
+           <li>
+diff --git a/src/components/WhatIDo.tsx b/src/components/WhatIDo.tsx
+index 8ae1767..b2792fe 100644
+--- a/src/components/WhatIDo.tsx
++++ b/src/components/WhatIDo.tsx
+@@ -96,13 +96,10 @@ const WhatIDo = () => {
+               <h5>Skillset & tools</h5>
+               <div className="what-content-flex">
+                 <div className="what-tags">React.js</div>
+-                <div className="what-tags">Angular</div>
+-                <div className="what-tags">Next.js</div>
+-                <div className="what-tags">TypeScript</div>
+                 <div className="what-tags">JavaScript</div>
+-                <div className="what-tags">Material UI</div>
+                 <div className="what-tags">HTML5</div>
+                 <div className="what-tags">CSS3</div>
++                <div className="what-tags">Responsive Web Design</div>
+               </div>
+               <div className="what-arrow"></div>
+             </div>
+@@ -134,14 +131,14 @@ const WhatIDo = () => {
+               </p>
+               <h5>Skillset & tools</h5>
+               <div className="what-content-flex">
+-                <div className="what-tags">Node.js</div>
+-                <div className="what-tags">NestJS</div>
+-                <div className="what-tags">Express.js</div>
+-                <div className="what-tags">MongoDB</div>
+-                <div className="what-tags">PostgreSQL</div>
+-                <div className="what-tags">REST APIs</div>
+-                <div className="what-tags">Microservices</div>
+-                <div className="what-tags">Python</div>
++                <div className="what-tags">.NET Web API</div>
++                <div className="what-tags">ADO.NET</div>
++                <div className="what-tags">REST API Development</div>
++                <div className="what-tags">SQL Server</div>
++                <div className="what-tags">SSMS</div>
++                <div className="what-tags">Database Design</div>
++                <div className="what-tags">WordPress Development</div>
++                <div className="what-tags">Git & GitHub</div>
+               </div>
+               <div className="what-arrow"></div>
+             </div>

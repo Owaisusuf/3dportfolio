@@ -5,34 +5,25 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
-    title: "Solid Starters",
-    category: "Low-Code Platform",
-    tools: "Angular, Next.js, NestJS, MongoDB",
-    image: "/images/Solidx.png",
+    title: "Universal Book Finder",
+    category: "Global Search Platform",
+    tools: "React, Node.js, MongoDB",
+    image: "/images/bookfinder.jpeg",
+    link: "https://bookfinder-bice.vercel.app/",
   },
   {
-    title: "Radix",
-    category: "E-Commerce",
-    tools: "Angular, Next.js, NestJS, CMS",
-    image: "/images/radix.png",
+    title: "Jamia Masjid Digital Companion",
+    category: "Community Experience Platform",
+    tools: "Next.js, GSAP, Firebase",
+    image: "/images/masjid.jpeg",
+    link: "https://masjid-companion.vercel.app/",
   },
   {
-    title: "Bond Cancellation",
-    category: "Import-Export Automation",
-    tools: "Angular, Next.js, NestJS, Workflows",
-    image: "/images/bond.png",
-  },
-  {
-    title: "Sapphire",
-    category: "CRM Platform",
-    tools: "AngularJS, NestJS, PostgreSQL",
-    image: "/images/sapphire.png",
-  },
-  {
-    title: "Mpro",
-    category: "Insurance Platform",
-    tools: "React.js, Node.js, Microservices",
-    image: "/images/Maxlife.png",
+    title: "TheLost Wonders Tourism Platform",
+    category: "Immersive Travel Platform",
+    tools: "React, Three.js, GSAPw",
+    image: "/images/travel.jpeg",
+    link: "https://thelostwonders.in/",
   },
 ];
 
@@ -70,25 +61,22 @@ const Work = () => {
         </h2>
 
         <div className="carousel-wrapper">
-          {/* Navigation Arrows */}
           <button
             className="carousel-arrow carousel-arrow-left"
             onClick={goToPrev}
             aria-label="Previous project"
-            data-cursor="disable"
           >
             <MdArrowBack />
           </button>
+
           <button
             className="carousel-arrow carousel-arrow-right"
             onClick={goToNext}
             aria-label="Next project"
-            data-cursor="disable"
           >
             <MdArrowForward />
           </button>
 
-          {/* Slides */}
           <div className="carousel-track-container">
             <div
               className="carousel-track"
@@ -114,16 +102,25 @@ const Work = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="carousel-image-wrapper">
-                      <WorkImage image={project.image} alt={project.title} />
-                    </div>
+
+                    {/* ✅ CLICKABLE IMAGE */}
+                    <a
+                      href={project.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="carousel-image-wrapper"
+                    >
+                      <WorkImage
+                        image={project.image}
+                        alt={project.title}
+                      />
+                    </a>
                   </div>
                 </div>
               ))}
             </div>
           </div>
 
-          {/* Dot Indicators */}
           <div className="carousel-dots">
             {projects.map((_, index) => (
               <button
@@ -132,7 +129,6 @@ const Work = () => {
                   }`}
                 onClick={() => goToSlide(index)}
                 aria-label={`Go to project ${index + 1}`}
-                data-cursor="disable"
               />
             ))}
           </div>
